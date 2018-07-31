@@ -5,7 +5,7 @@
 		Source: https://wordpress.org/gutenberg/handbook/extensibility/theme-support/
 	*/
 	
-	function mytheme_setup_theme_supported_features() {
+function mytheme_setup_theme_supported_features() {
     add_theme_support( 'editor-color-palette', array(
         array(
             'name' => __( 'strong magenta', 'themeLangDomain' ),
